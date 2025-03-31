@@ -1,4 +1,6 @@
-import { Button } from "./ui/components/button";
+"use client";
+
+import MonthYearPicker from "./ui/components/DatePicker";
 import { SubTitle } from "./ui/layout/components/SubTitle";
 import { TitleIcon } from "./ui/layout/components/TitleIcon";
 import { TitleText } from "./ui/layout/components/TitleText";
@@ -11,7 +13,7 @@ export default function Home() {
         <TitleText />
         <SubTitle />
       </div>
-      <Button>Selecionar Data</Button>
+      <MonthYearPicker />
     </div>
   );
 }
